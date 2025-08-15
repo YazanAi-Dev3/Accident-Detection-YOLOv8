@@ -2,7 +2,7 @@
 
 This project presents a comprehensive system for real-time traffic analysis and incident detection using a custom-trained YOLOv8 model. The system is designed to process video streams, identify various events and vehicle types, and apply advanced logic to assess the severity of traffic incidents.
 
-## ✨ Key Features
+##  Key Features
 
 -   **Multi-Class Object Detection:** Utilizes a powerful YOLOv8 model trained to detect 9 distinct classes, enabling a detailed analysis of traffic scenes.
 -   **Advanced Risk Assessment:** Implements custom logic to analyze detections over time and calculate two critical metrics: **Accident Severity** for participants and **Surrounding Severity** for the general area.
@@ -11,7 +11,7 @@ This project presents a comprehensive system for real-time traffic analysis and 
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The model was trained on a custom-built dataset created by merging two separate sources from Kaggle. This process, documented in the training notebook, allowed for an expanded and more diverse set of detection classes.
 
@@ -22,14 +22,14 @@ The primary datasets used are:
 
 ---
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 To run this project on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```sh
-    git clone [Your-Repo-URL]
-    cd [Your-Repo-Name]
+    git clone [https://github.com/YazanAi-Dev3]
+    cd [Accident-Detection-YOLOv8]
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -51,7 +51,7 @@ You are now ready to open and run the `Accident_Detection_Inference.ipynb` noteb
 
 ---
 
-## 🚀 Project Workflow & Real-Time Capabilities
+##  Project Workflow & Real-Time Capabilities
 
 This repository is structured to demonstrate the full lifecycle of the project:
 
@@ -65,7 +65,7 @@ The inference logic demonstrated in the notebook (processing a video frame-by-fr
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 -   Python
 -   PyTorch
