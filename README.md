@@ -8,6 +8,7 @@
 [![YOLOv8](https://img.shields.io/badge/Ultralytics-YOLOv8-00FFFF)](https://github.com/ultralytics/ultralytics)
 [![PyTorch](https://img.shields.io/badge/PyTorch-Backbone-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-Video-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **A real-time traffic-analysis system built on a custom-trained YOLOv8 model that detects 9 classes and applies temporal logic to score incident severity.**
 
@@ -59,3 +60,7 @@ pip install -r requirements.txt
 ## Tech Stack
 
 `Python` · `Ultralytics YOLOv8` · `PyTorch` · `OpenCV` · `Pandas` · `Kaggle API`
+
+## License
+
+MIT — see [LICENSE](LICENSE).
